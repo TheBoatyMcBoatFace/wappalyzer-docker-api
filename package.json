@@ -1,33 +1,29 @@
 {
-  "name": "wappalyzer",
-  "description": "Identify technology on websites",
+  "name": "wappalyzer-api",
+  "description": "API returning technologies used by a website",
   "homepage": "https://www.wappalyzer.com",
-  "version": "5.9.32",
-  "author": "Wappalyzer",
-  "license": "MIT",
+  "version": "2.0.0",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hunter-io/wappalyzer.git"
+    "url": "https://github.com/TheBoatyMcBoatFace/wappalyzer-docker-api"
   },
-  "funding": {
-    "url": "https://github.com/sponsors/aliasio"
-  },
-  "main": "index.js",
+  "main": "app.js",
   "files": [
-    "apps.json",
     "browser.js",
     "browsers/zombie.js",
     "browsers/puppeteer.js",
     "cli.js",
     "driver.js",
     "index.js",
+    "app.js",
     "wappalyzer.js"
   ],
-  "bin": {
-    "wappalyzer": "./cli.js"
-  },
   "dependencies": {
-    "cld": "^2.6.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "puppeteer": "^2.1.1",
+    "wappalyzer": "github:TheBoatyMcBoatFace/wappalyzer#fix",
     "zombie": "^6.1.4"
   },
   "peerDependencies": {
