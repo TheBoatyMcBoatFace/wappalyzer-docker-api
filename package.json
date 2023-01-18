@@ -1,0 +1,36 @@
+{
+  "name": "wappalyzer",
+  "description": "Identify technology on websites",
+  "homepage": "https://www.wappalyzer.com",
+  "version": "5.9.32",
+  "author": "Wappalyzer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunter-io/wappalyzer.git"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/aliasio"
+  },
+  "main": "index.js",
+  "files": [
+    "apps.json",
+    "browser.js",
+    "browsers/zombie.js",
+    "browsers/puppeteer.js",
+    "cli.js",
+    "driver.js",
+    "index.js",
+    "wappalyzer.js"
+  ],
+  "bin": {
+    "wappalyzer": "./cli.js"
+  },
+  "dependencies": {
+    "cld": "^2.6.0",
+    "zombie": "^6.1.4"
+  },
+  "peerDependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
