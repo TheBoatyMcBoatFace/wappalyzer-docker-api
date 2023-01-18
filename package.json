@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "puppeteer": "^2.1.1",
-    "wappalyzer": "github:TheBoatyMcBoatFace/wappalyzer#fix",
+    "wappalyzer": "github:TheBoatyMcBoatFace/wappalyzer#main",
     "zombie": "^6.1.4"
   },
   "peerDependencies": {
