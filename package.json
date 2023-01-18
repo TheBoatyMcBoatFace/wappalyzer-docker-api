@@ -22,11 +22,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "latest",
     "wappalyzer": "github:TheBoatyMcBoatFace/wappalyzer#main",
     "zombie": "^6.1.4"
   },
   "peerDependencies": {
-    "puppeteer": "^2.0.0"
+    "puppeteer": "latest"
   }
 }
