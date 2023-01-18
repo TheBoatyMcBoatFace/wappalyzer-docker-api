@@ -6,6 +6,8 @@ const Wappalyzer = require('./wappalyzer');
 
 const json = JSON.parse(fs.readFileSync(path.resolve(`${__dirname}/apps.json`)));
 
+const json = JSON.parse(fs.readFileSync(path.resolve(`${__dirname}tech/apps.json`)));
+
 const extensions = /^([^.]+$|\.(asp|aspx|cgi|htm|html|jsp|php)$)/;
 
 const errorTypes = {
